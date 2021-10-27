@@ -4,31 +4,35 @@
           <meta charset="utf-8">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
           <link rel="stylesheet" type="text/css" href="resources/styles/normalize.css">
+          <link rel="stylesheet" type="text/css" href="resources/styles/homegrids.css">
+          <link rel="stylesheet" type="text/css" href="resources/styles/style.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
           <title>Straight To The Point Archery</title>
     </head>
-
+    <header class="fixednav">
+        <nav class="leftnav">
+          <img class="toplogo" src="resources/images/archeryAcademy-logo-white.png" alt="straight to the point archery logo">
+        </nav>
+        <nav class="rightnav">
+          <a href="#" class="rightnav">Classes</a>
+          <a href="#" class="rightnav">Instructors</a>
+          <a href="#" class="rightnav">About</a>
+        </nav>
+    </header>
     <body>
-      <header>
-          <h1>Straight To The Point Archery</h1>
-          <img class="logo" src="resources/images/archeryAcademy-logo-color.png" alt="straight to the point archery logo">
-      </header>
-      <nav id="header-nav">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li>/</li>
-          <li><a href="#">Services</a></li>
-          <li>/</li>
-          <li><a href="about.html">About</a></li>
-          <li>/</li>
-          <li><a href="#">Contact</a></li>
-          <li>/</li>
-          <li><a href="#">Apply</a></li>
-        </ul>
-      </nav>
-      <div class="content">
-        <div class="landing">
-          <h1>From Beginner to Elite, archers of all ages and ability can learn about this exciting Olympic and international sport.</h1>
-        </div>
+  <!-- The video -->
+  <div class="container">
+    <video autoplay muted loop id="myVideo">
+    <source src="resources\videos\video_1.mp4" type="video/mp4">
+    </video>
+ <div class="text-block">
+   <h4>Straight to the Point</h4>
+   <p>Classes starting soon.</p>
+ </div>
+</div>
+      <div class="main_content">
         <h1>Classes</h1>
         <div class="row1">
           <div class="column3">
@@ -68,16 +72,12 @@
           Tacoma, WA 98412
           (253)555-1010</p>
         <nav id="footer-nav">
-          <ul>
+          <ul style="padding-left: 0px;">
             <li><a href="index.html">Home</a></li>
             <li>/</li>
-            <li><a href="#">Services</a></li>
+            <li><a href="#">Classes</a></li>
             <li>/</li>
-            <li><a href="about.html">About</a></li>
-            <li>/</li>
-            <li><a href="#">Contact</a></li>
-            <li>/</li>
-            <li><a href="#">Apply</a></li>
+            <li><a href="about.html">Instructors</a></li>
           </ul>
         </nav>
         <p class="footer-paragraph">Copyright © 2021 | Straight To The Point Archery</p>

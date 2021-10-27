@@ -1,0 +1,156 @@
+/* Custom CSS Overrides */
+.fixednav {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* aligns links vertically */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  height: 60px;
+  background-color: #2c9ab7;
+}
+
+.leftnav {
+  flex-grow: 1;
+}
+
+.rightnav {
+  padding-right: 2rem;
+}
+
+.toplogo {
+  height: 50px;
+width: inherit;
+padding-left: 2rem;
+}
+/* Container holding the image and the text */
+.container {
+ position: static;
+ margin-bottom: 10%;
+}
+
+/* Video text block */
+.text-block {
+ position: absolute;
+ position: absolute;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%);
+padding: 10px;
+font-size: 400%;
+text-align: center;
+ color: white;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+h4 {
+font-family: 'Oswald', sans-serif;
+text-decoration: none;
+}
+
+p {
+  font-family: sans-serif;
+}
+
+a {
+  padding: 1em;
+  text-transform: uppercase;
+  color: White;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.main_content {
+}
+
+footer {
+  clear: both;
+  background-color: #393939;
+  color: #909090;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 0px) and (max-width: 240px){
+    footer {
+        display : none;
+        visibility : hidden;
+    }
+}
+
+@media (min-height: 0px) and (max-height: 720px){
+    footer {
+        display : none;
+        visibility : hidden;
+    }
+}
+
+#footertext {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#footer-nav ul {
+    display: flex;
+    list-style-type: none;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #393939;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+
+#footer-nav li {
+  display: block;
+  float: left;
+  color: #909090;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#footer-nav li a {
+    display: block;
+    color: white;
+    padding: 0 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#footer-nav li a:hover {
+  color: #111;
+}
+
+  .active {
+    background-color: #04AA6D;
+}
+
+/* Add some content at the bottom of the video/page */
+#overlayText {
+ position:absolute;
+  top:30%;
+  left:20%;
+  z-index:0;
+}
+
+#topText {
+  color: white;
+  font-size: 20px;
+  align-self: center;
+}
