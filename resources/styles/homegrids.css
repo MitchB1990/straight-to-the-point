@@ -1,31 +1,21 @@
-.container {
+.three-grid-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 1em 1em;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "Profile-Photo-1 Profile-Photo-2 Profile-Photo-3 Profile-Photo-4"
-    "Profile-Desc-1 Profile-Desc-2 Profile-Desc-3 Profile-Desc-4";
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+.three-grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
 
-.Profile-Photo-1 { grid-area: Profile-Photo-1; }
-
-.Profile-Photo-2 { grid-area: Profile-Photo-2; }
-
-.Profile-Photo-3 { grid-area: Profile-Photo-3; }
-
-.Profile-Photo-4 { grid-area: Profile-Photo-4; }
-
-.Profile-Desc-1 { grid-area: Profile-Desc-1; }
-
-.Profile-Desc-2 { grid-area: Profile-Desc-2; }
-
-.Profile-Desc-3 { grid-area: Profile-Desc-3; }
-
-.Profile-Desc-4 { grid-area: Profile-Desc-4; }
-
-
-html, body , .container {
-  height: 100%;
-  margin: 0; }
+.four-grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+.four-grid-item {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}

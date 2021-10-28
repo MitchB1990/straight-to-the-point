@@ -28,7 +28,11 @@ padding-left: 2rem;
 /* Container holding the image and the text */
 .container {
  position: static;
- margin-bottom: 10%;
+}
+
+video{
+  max-width: 100%;
+  overflow: hidden;
 }
 
 /* Video text block */
@@ -39,16 +43,24 @@ left: 50%;
 top: 50%;
 transform: translate(-50%, -50%);
 padding: 10px;
-font-size: 400%;
 text-align: center;
  color: white;
  padding-left: 20px;
  padding-right: 20px;
 }
 
-h4 {
+h4, h3 {
 font-family: 'Oswald', sans-serif;
 text-decoration: none;
+margin: 0;
+}
+
+.subsection {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  font-size: 6vw;
+  color: #2c9ab7;
+  margin: 0;
 }
 
 p {
@@ -64,9 +76,6 @@ a {
 }
 a:hover {
     text-decoration: underline;
-}
-
-.main_content {
 }
 
 footer {
@@ -139,6 +148,14 @@ footer {
 
   .active {
     background-color: #04AA6D;
+}
+
+.resize {
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
 }
 
 /* Add some content at the bottom of the video/page */

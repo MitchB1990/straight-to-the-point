@@ -11,51 +11,52 @@
           <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
           <title>Straight To The Point Archery</title>
     </head>
+    <body>
     <header class="fixednav">
         <nav class="leftnav">
           <img class="toplogo" src="resources/images/archeryAcademy-logo-white.png" alt="straight to the point archery logo">
         </nav>
         <nav class="rightnav">
-          <a href="#" class="rightnav">Classes</a>
-          <a href="#" class="rightnav">Instructors</a>
+          <a href="index.html">Home</a>
+          <a href="#classes" class="rightnav">Classes</a>
+          <a href="#instructors" class="rightnav">Instructors</a>
           <a href="#" class="rightnav">About</a>
         </nav>
     </header>
-    <body>
   <!-- The video -->
+  <div class="text-block">
+    <h4 class="resize" style="font-size:8vw;">Straight to the Point</h4>
+    <p class="resize" style="font-size:4vw;">Classes starting soon.</p>
+     </div>
   <div class="container">
     <video autoplay muted loop id="myVideo">
-    <source src="resources\videos\video_1.mp4" type="video/mp4">
+    <source src="resources/videos/video_1.mp4" type="video/mp4">
     </video>
- <div class="text-block">
-   <h4>Straight to the Point</h4>
-   <p>Classes starting soon.</p>
- </div>
 </div>
-      <div class="main_content">
-        <h1>Classes</h1>
-        <div class="row1">
-          <div class="column3">
-            <img src="resources/images/placeholder-img.png" alt="A101 Basic Archery" />
-            <h3>A101 Basic Archery</h3>
+        <a id="classes"></a>
+        <h1 class="subsection">Classes</h1>
+      <div class="three-grid-container">
+        <div class="three-grid-item">
+          <h3>A101 Basic Archery</h3>
+            <img class="resize" src="resources/images/101.png" alt="A101 Basic Archery" />
             <p><strong>$120</strong>/month</p>
             <p><strong>Schedule</strong></p>
             <p>Mondays and Wednesdays, 4-5pm</p>
             <p><strong>Prerequisites</strong></p>
             <p>Interest in learning about the sport of archery.</p>
           </div>
-          <div class="column3">
-            <img src="resources/images/placeholder-img.png" alt="A101 Basic Archery" />
+          <div class="three-grid-item">
             <h3>A102 Intermediate Archery</h3>
+            <img class="resize" src="resources/images/102.png" alt="A101 Basic Archery" />
             <p><strong>$120</strong>/month</p>
             <p><strong>Schedule</strong></p>
             <p>Mondays and Wednesdays, 4-5pm</p>
             <p><strong>Prerequisites</strong></p>
             <p>Interest in learning about the sport of archery.</p>
           </div>
-          <div class="column3">
-            <img src="resources/images/placeholder-img.png" alt="A101 Basic Archery" />
+          <div class="three-grid-item">
             <h3>A103 Advanced Archery</h3>
+            <img class="resize" src="resources/images/103.png" alt="A101 Basic Archery" />
             <p><strong>$120</strong>/month</p>
             <p><strong>Schedule</strong></p>
             <p>Mondays and Wednesdays, 4-5pm</p>
@@ -63,7 +64,48 @@
             <p>Interest in learning about the sport of archery.</p>
           </div>
         </div>
-    </div>
+
+        <a id="instructors"></a>
+        <h1 class="subsection">Classes</h1>
+      <div class="four-grid-container">
+        <div class="four-grid-item">
+          <h3>A101 Basic Archery</h3>
+            <img class="resize" src="resources/images/101.png" alt="A101 Basic Archery" />
+            <p><strong>$120</strong>/month</p>
+            <p><strong>Schedule</strong></p>
+            <p>Mondays and Wednesdays, 4-5pm</p>
+            <p><strong>Prerequisites</strong></p>
+            <p>Interest in learning about the sport of archery.</p>
+          </div>
+          <div class="four-grid-item">
+            <h3>A102 Intermediate Archery</h3>
+            <img class="resize" src="resources/images/102.png" alt="A101 Basic Archery" />
+            <p><strong>$120</strong>/month</p>
+            <p><strong>Schedule</strong></p>
+            <p>Mondays and Wednesdays, 4-5pm</p>
+            <p><strong>Prerequisites</strong></p>
+            <p>Interest in learning about the sport of archery.</p>
+          </div>
+          <div class="four-grid-item">
+            <h3>A103 Advanced Archery</h3>
+            <img class="resize" src="resources/images/103.png" alt="A101 Basic Archery" />
+            <p><strong>$120</strong>/month</p>
+            <p><strong>Schedule</strong></p>
+            <p>Mondays and Wednesdays, 4-5pm</p>
+            <p><strong>Prerequisites</strong></p>
+            <p>Interest in learning about the sport of archery.</p>
+          </div>
+          <div class="four-grid-item">
+            <h3>A103 Advanced Archery</h3>
+            <img class="resize" src="resources/images/103.png" alt="A101 Basic Archery" />
+            <p><strong>$120</strong>/month</p>
+            <p><strong>Schedule</strong></p>
+            <p>Mondays and Wednesdays, 4-5pm</p>
+            <p><strong>Prerequisites</strong></p>
+            <p>Interest in learning about the sport of archery.</p>
+          </div>
+        </div>
+
       <footer>
         <div id="footertext">
         <img class="logo" src="resources/images/archeryAcademy-logo-color.png" alt="straight to the point archery logo">
@@ -75,9 +117,9 @@
           <ul style="padding-left: 0px;">
             <li><a href="index.html">Home</a></li>
             <li>/</li>
-            <li><a href="#">Classes</a></li>
+            <li><a href="classes">Classes</a></li>
             <li>/</li>
-            <li><a href="about.html">Instructors</a></li>
+            <li><a href="instructors">Instructors</a></li>
           </ul>
         </nav>
         <p class="footer-paragraph">Copyright © 2021 | Straight To The Point Archery</p>
